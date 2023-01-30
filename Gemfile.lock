@@ -161,6 +161,7 @@ GEM
       ffi (~> 1.0)
     regexp_parser (2.6.2)
     rexml (3.2.5)
+    ruby_http_client (3.5.5)
     rubyzip (2.3.2)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
@@ -177,6 +178,8 @@ GEM
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
     semantic_range (3.0.0)
+    sendgrid-ruby (6.6.2)
+      ruby_http_client (~> 3.4)
     spring (4.1.1)
     sprockets (4.2.0)
       concurrent-ruby (~> 1.0)
@@ -231,6 +234,7 @@ DEPENDENCIES
   rails (~> 6.1.7, >= 6.1.7.2)
   sass-rails (>= 6)
   selenium-webdriver (>= 4.0.0.rc1)
+  sendgrid-ruby
   spring
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
