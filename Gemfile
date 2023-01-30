@@ -20,6 +20,10 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'pg'
+gem 'devise'
+gem 'milia'
+
 gem 'sendgrid-ruby'
 
 # Use Active Storage variant
@@ -55,7 +59,7 @@ group :test do
 end
 
 group :production do
-  gem 'pg'
+  # gem 'pg'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
